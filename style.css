@@ -1,0 +1,83 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+margin: 0px auto;
+background-color: #E0f0fd;
+align-items: center;
+color: #444444;
+}
+
+h1, h2, h3 {
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+font-size: 42px;
+color: #0066cc;
+}
+
+a {
+text-decoration: none;
+color: #2596be;
+}
+
+
+.cards {
+display: flex;
+justify-content: space-between;
+margin-top: 60px;
+}
+
+----hi, I added this part even if it was not necessary----
+
+.recommendation {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+
+.recommendation h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.recommendation-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.recommendation-item {
+  max-width: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #cccccc;
+}
+
+.recommendation-item img {
+  width: 110px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.recommendation-item p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.recommendation-item span {
+  font-size: 16px;
+  font-weight: 500;
+}

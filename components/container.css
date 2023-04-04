@@ -1,0 +1,39 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #80bfff;
+  box-shadow: 0 15px 30px rgb(37, 150, 190);
+  border-radius: 5px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 20px 10px;
+  }
+  
+  .container h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}

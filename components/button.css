@@ -1,0 +1,16 @@
+.btn-blue {
+background: linear-gradient(280deg, rgba(0, 0, 0.4) 0%, rgba(0, 0, 0, 0.2) 70%);
+padding: 12px 17px;
+border-radius: 5px;
+font-weight: bold;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+color: #fff;
+text-decoration: none;
+transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-blue:hover {
+background-color: #fff;
+color: #100;
+}
